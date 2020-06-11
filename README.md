@@ -136,5 +136,8 @@ from .basic import CollectBasicTest
 
 
 使用Inno Setup Compiler 打包成安装包, 修改项目的pack目录中的build.iss
-```#define ROOT "C:\github\open-falcon-agent-windows" 定义项目路径```
+```
+#define ROOT "C:\github\open-falcon-agent-windows" 定义项目路径
+```
+
 然后编译， 会在Output文件夹中生成agent-setup.exe， 双击即可安装
