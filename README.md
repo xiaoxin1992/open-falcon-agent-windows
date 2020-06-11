@@ -140,4 +140,4 @@ from .basic import CollectBasicTest
 #define ROOT "C:\github\open-falcon-agent-windows" 定义项目路径
 ```
 
-然后编译， 会在Output文件夹中生成agent-setup.exe， 双击即可安装
+然后编译， 会在Output文件夹中生成agent-setup.exe， 右击管理员运行即可安装
