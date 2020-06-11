@@ -1,0 +1,1 @@
+python -OO -m PyInstaller --uac-admin -F -i .\ico\favicon.ico -c .\agent.py

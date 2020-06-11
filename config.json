@@ -1,0 +1,10 @@
+{
+  "debug": true,
+  "interval": 60,
+  "heartbeat_addr": "127.0.0.1:6030",
+  "transfer_addr": "127.0.0.1:8433",
+  "version": "0.0.1",
+  "plugins":[
+    "CollectBasic"
+  ]
+}
