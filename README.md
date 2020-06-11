@@ -2,7 +2,7 @@
 [![Open-Falcon](https://img.shields.io/badge/OpenFalcon-v0.3-orange.svg?style=popout)](http://www.open-falcon.com/)
 
 # open-falcon-agent-windows
-
+open-falcon indows Agent
 
 ### 使用方法
 安装依赖
@@ -10,7 +10,7 @@
 pip3 install -r requirements.txt
 ```
 安装完Python以后需要执行build_exe.bat变成exe格式
-
+W
 ````
 c:\> .\build_exe.bat
 57 INFO: PyInstaller: 3.6
@@ -133,3 +133,8 @@ from .basic import CollectBasicTest
 ```
 
 重新执行build_exe.bat编译exe``c:\> .\build_exe.bat``，并重新安装服务，并且重启服务
+
+
+使用Inno Setup Compiler 打包成安装包, 修改项目的pack目录中的build.iss
+```#define ROOT "C:\github\open-falcon-agent-windows" 定义项目路径```
+然后编译， 会在Output文件夹中生成agent-setup.exe， 双击即可安装
