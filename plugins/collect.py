@@ -13,7 +13,6 @@ class CollectBasic(Metric):
         }
         self.push_interval = config.interval
         self.zh_decode = "utf8"
-        self.hostname = config.hostname
         self.network_name = []
         self.timestamp = int(datetime.now().timestamp())
 
@@ -97,7 +96,6 @@ class CollectBasic(Metric):
 
     def collect(self):
         logging.debug('enter basic collect')
-        self.timestamp = int(datetime.now().timestamp())
         cpu_status = psutil.cpu_times_percent()
         mem_status = psutil.virtual_memory()
         swap_status = psutil.swap_memory()
