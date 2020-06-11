@@ -24,7 +24,7 @@ DisableProgramGroupPage=yes
 InfoBeforeFile={#ROOT}\pack\install.rtf
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
-OutputBaseFilename=agent-setup
+OutputBaseFilename=agent-setup-0.0.1
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
